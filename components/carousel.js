@@ -5,7 +5,7 @@ export default function Carousel() {
   return (
     <div>
 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-  <div className="carousel-inner h-[105px] md:h-[225px] w-[100vw]">
+  <div className="carousel-inner h-[145px] md:h-[225px] w-[100vw]">
     <div className="w-[100%] carousel-item active ">
       <a href="https://www.amazon.in/gp/browse.html?node=976389031&ref_=nav_em_sbc_books_all_0_2_17_2" target='_blank'><img src="https://m.media-amazon.com/images/I/71Ie3JXGfVL._SX3000_.jpg" className="h-full w-full" alt="..."/>
     </a>

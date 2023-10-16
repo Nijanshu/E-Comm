@@ -16,7 +16,7 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
 }
 
 /* Style the logo */
@@ -113,7 +113,6 @@ ul {
   
   .footertext {
     text-align: center;
-    margin-top: 20px;
   }
   
   /* Media query for responsiveness */
@@ -121,6 +120,7 @@ ul {
     .footercontainer {
       flex-direction: column;
       align-items: flex-start;
+      padding: 10px;
     }
   
     .footerlogo {
@@ -128,7 +128,7 @@ ul {
     }
   
     .footerlinks {
-      margin-top: 20px;
+      margin: 20px 5px;
     }
   }
   }  

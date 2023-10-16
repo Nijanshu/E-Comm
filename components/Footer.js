@@ -18,7 +18,7 @@ function Footer() {
           </a>
         </div>
         <div className={styles.footerlinks}>
-          <ul>
+          <ul className='m-0'>
             <li><a className='hover:text-slate-500' href="#">Home</a></li>
             <li><a className='hover:text-slate-500' href="https://amazon.in" target='_blank'>Shop</a></li>
             <li><a className='hover:text-slate-500' href="#">About Us</a></li>
@@ -26,7 +26,7 @@ function Footer() {
           </ul>
         </div>
         <div className={styles.footersocial}>
-          <ul>
+          <ul className='m-0'>
             <MdFacebook className='hover:text-slate-400 cursor-pointer'/>
             <RiTwitterXFill className='hover:text-slate-400 cursor-pointer'/>
             <BsInstagram className='hover:text-slate-400 cursor-pointer'/>

@@ -8,7 +8,7 @@
 
 @media (max-width: 768px) {
     .carousel-item{
-        height: 250px;
-        width: 100vh !important;
+        height: 350px;
+        width: 140vw !important;
         right: 25%;
     }}
