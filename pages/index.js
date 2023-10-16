@@ -1,8 +1,15 @@
 // import React from 'react'
 import Carousel from '@/components/carousel'
+import Head from 'next/head'
 
 export default function Main() {
   return (<>
+   <Head>
+        <title>Namazon</title>
+        <meta name="description" content="Shop what you love" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/inBlog.png" />
+      </Head>
   <Carousel/>
     <div className='relative bg-slate-500 flex flex-col md:flex-row justify-center'>
       <div className='bg-white flex flex-col text-center md:w-[28%] h-[60%] m-[10px]'>
