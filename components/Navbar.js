@@ -10,7 +10,7 @@ const Navbar = () => {
   <div className=" flex flex-wrap justify-around p-2 flex-col md:flex-row items-center">
     <Link href={'/'} className="flex title-font font-medium pr-2 items-center text-gray-900 md:mb-0">
      <img src='/namazon.png' width={60} alt='Namazon'/>
-     <img src='/namazontext.png' width={150} alt='Namazon'/>
+     <img src='/Namazontext.png' width={150} alt='Namazon'/>
     </Link>
     <input type="text" className='text-xl rounded-full p-4 h-12 border-3 w-full md:w-7/12 bg-blue-50  border-blue-400 ' placeholder='search'/>
    
