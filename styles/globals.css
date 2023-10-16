@@ -1,3 +1,6 @@
 @tailwind base;
 @tailwind components;
+.btn{
+    @apply bg-yellow-600
+}
 @tailwind utilities;

@@ -1,0 +1,19 @@
+
+.carousel-item{
+    height: 2200px;
+}
+
+/* img{
+    height: 240%;
+} */
+
+#carouselExampleControls{
+    height: 1000px;
+}
+
+@media (max-width: 768px) {
+    .carousel-item{
+        height: 250px;
+        width: 150%;
+        right: 25%;
+    }}

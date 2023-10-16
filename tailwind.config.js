@@ -10,7 +10,11 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      animation: {
+        wiggle: 'ping 1.5s cubic-bezier(0, 0, 0.2, 1) ',
+      }
+    },
   },
   plugins: [],
 }

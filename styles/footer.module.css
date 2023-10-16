@@ -1,0 +1,134 @@
+/* Reset some default styles for the body and lists */
+/* body {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+} */
+
+/* Style the footer container */
+.footercontainer {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Style the logo */
+.footerlogo img {
+    width: 100px;
+    height: auto;
+}
+
+/* Style the footer links */
+.footersocial ul{
+  display: flex;
+  gap: 10px;
+  font-size: 30px;
+  color: #ec930d;
+}
+.footerlinks ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.footerlinks a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Style the footer social icons */
+.footersocial ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.footersocial img {
+    width: 30px;
+    height: 30px;
+}
+
+/* Style the copyright text */
+.footertext {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #222;
+    color: #fff;
+}
+
+/* footer{
+    position: relative;
+    top:50px
+} */
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  @media (max-width: 768px) {
+    /* footer.css */
+/* footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  } */
+  
+  .footercontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footerlogo {
+    flex: 1;
+    max-width: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .footerlinks ul,
+  .footersocial ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footerlinks li,
+  .footersocial li {
+    margin-bottom: 10px;
+  }
+  
+  .footertext {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 768px) {
+    .footercontainer {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .footerlogo {
+      margin-bottom: 10px;
+    }
+  
+    .footerlinks {
+      margin-top: 20px;
+    }
+  }
+  }  
